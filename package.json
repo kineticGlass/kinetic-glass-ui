@@ -47,6 +47,7 @@
     "@storybook/builder-webpack5": "^6.5.15",
     "@storybook/manager-webpack5": "^6.5.15",
     "prop-types": "^15.8.1",
+    "react-select": "^5.7.0",
     "styled-components": "^5.3.6"
   }
 }

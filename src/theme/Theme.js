@@ -57,8 +57,12 @@ export const KGTheme = {
      dark: '#46018f',
    },
    text: {
-     light: '#fff',
-     dark: '#ccc',
+     dark: '#fff',
+     light: '#000',
+   },
+   buttonText:{
+    light: '#fff',
+    dark: '#000',
    },
    background: {
      light: '#fff',

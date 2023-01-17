@@ -1,8 +1,16 @@
 import React from 'react'
+import StyledSelect from './StyledSelect'
 
-export function Select() {
+export const Select =(props)=> {
+
   return (
-    <div>Select</div>
+    <div>
+<StyledSelect></StyledSelect>
+    </div>
   )
+}
+
+Select.prototype = {
+
 }
 

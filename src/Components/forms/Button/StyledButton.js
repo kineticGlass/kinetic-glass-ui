@@ -28,7 +28,7 @@ const StyledButton = styled.button`
       : KGTheme.colors.primary[KGTheme.mode]};
   padding: 0 ${(pr) => (pr.size ? sidePaddings[pr.size] : sidePaddings.md)}px;
   height: ${(pr) => (pr.size ? heights[pr.size] : heights.md)}px;
-  color: ${(pr) => pr.theme.colors.text[pr.theme.mode]};
+  color: ${(pr) => pr.theme.colors.buttonText[pr.theme.mode]};
   ${(pr) =>
     pr.disabled
       ? `
