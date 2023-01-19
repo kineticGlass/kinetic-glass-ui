@@ -3,7 +3,7 @@ import { CheckBox } from '../Components';
 
 
 export default {
-  title: 'Components/chk',
+  title: 'Components/Forms/CheckBox',
   component: CheckBox,
   argTypes: { onChange: { action: 'clicked' } },
 }

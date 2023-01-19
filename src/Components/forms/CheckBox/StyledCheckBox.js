@@ -54,7 +54,6 @@ const StyledCheckbox = styled.div`
     visibility: ${(props) => (props.checked ? "visible" : "hidden")};
   }
 `;
-
 const CheckboxStyled = (props) => {
   const { className, checked, size, color, disabled, ...rest } = props;
   return (
