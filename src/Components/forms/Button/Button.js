@@ -1,7 +1,6 @@
 import React from "react";
 import StyledButton from "./StyledButton";
 import { StyledIcon } from "./StyledButton";
-
 import PropTypes from "prop-types";
 import { COLORS, SIZES } from "../../../utils/utils";
 import "./buttonStyle.css";
