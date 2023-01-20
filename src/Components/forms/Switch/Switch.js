@@ -1,8 +1,11 @@
 import React from 'react'
+import  StyledSwitch  from './StyledSwitch'
 
 export function Switch() {
   return (
-    <div>Switch</div>
+    <StyledSwitch>
+
+    </StyledSwitch>
   )
 }
 
