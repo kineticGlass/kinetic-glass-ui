@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 export const Spinner = (props) =>{
     const {
         className,
-        size = 30,
+        size = 20,
         light = false,
     } = props;
 

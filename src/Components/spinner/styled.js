@@ -5,6 +5,7 @@ import { getSpinnerWidth } from "./utils";
 
 export const StyledSpinner = styled.span`
     box-sizing: border-box;
+    
     display: block;
     border: ${pr => getSpinnerWidth(pr.size)}px solid transparent;
     border-top: ${pr => getSpinnerWidth(pr.size)}px solid ${pr => pr.light ? '#f7f7f7' :  '#3d4ed1'};
