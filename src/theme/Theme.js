@@ -151,6 +151,15 @@ export const KGTheme = {
     normal: '0.2s ease-in-out',
     slow: '0.3s ease-in-out',
   },
+
+    sizes: {
+      xs: 20,
+      sm: 40,
+      md: 50,
+      lg: 80,
+      xl: 200
+    }
+  
 };
 
 

@@ -5,10 +5,10 @@ import PropTypes from "prop-types";
  
 export const FormControl=(props) => {
     const {
-        label = '',
-        htmlFor = '',
-        error = '',
-        hint = '',
+        label = 'dddd',
+        htmlFor = 'ddd',
+        error = 'dsada',
+        hint = 'sdaddasad sad',
         disabled = false,
         className,
         children,
@@ -21,7 +21,6 @@ export const FormControl=(props) => {
 
     return (
         <StyledFormControl 
-            ref={ref} 
             className={className}
             onFocus={(e) => { setFocused(true); onFocus(e); }}
             onBlur={(e) => { setFocused(false); onBlur(e); }}
