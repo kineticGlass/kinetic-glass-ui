@@ -1,15 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Button } from '../Components';
-import Download from '../Components/icons/Download';
+import { Button } from '../../Components';
+import Download from '../../Components/icons/Download';
 export default {
   title: 'Components/Forms/Button',
   component: Button,
  
 };
-
-
 
 const ButtonRow = styled.div`
   display: flex;
