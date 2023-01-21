@@ -130,12 +130,8 @@ export const KGTheme = {
     medium: '16px',
     large: '32px',
   },
-  breakpoints: {
-    xs: '480px',
-    sm: '768px',
-    md: '992px',
-    lg: '1200px',
-  },
+  mediaQueryType: 'min-width', // can also be 'max-width'
+  breakpoints: ['650px', '832px', '1024px'],
   shadows: {
     sm: '0 2px 4px rgba(0, 0, 0, 0.1)',
     md: '0 4px 8px rgba(0, 0, 0, 0.1)',
