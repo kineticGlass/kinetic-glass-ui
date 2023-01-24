@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { Button } from '../Components';
-import Download from '../Components/icons/Download';
+import {Download} from '../Components/icons';
 export default {
   title: 'Components/Forms/Button',
   component: Button,

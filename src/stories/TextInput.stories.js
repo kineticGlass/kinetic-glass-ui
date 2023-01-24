@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {TextInput} from '../Components';
 import styled from 'styled-components';
-import UserIcon from '../Components/icons/User';
 
 
 export default {
@@ -25,7 +24,6 @@ Placeholder.args = {
 export const WithIcon = Template.bind({});
 WithIcon.args = {
   placeholder: 'Login',
-  icon: UserIcon,
   width: '250px'
 }
 

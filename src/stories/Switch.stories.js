@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import {Switch} from '../Components';
-import styled from 'styled-components';
-import UserIcon from '../Components/icons/User';
-
 
 export default {
   title: 'Components/Forms/Switch',

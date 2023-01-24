@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import {Select} from '../Components';
-import styled from 'styled-components';
-import UserIcon from '../Components/icons/User';
 
 
 export default {

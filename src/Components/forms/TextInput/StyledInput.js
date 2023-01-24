@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { KGTheme } from "../../../theme/Theme";
 import { heights, sidePaddings } from "../../../utils/utils";
-import CrossIcon from "../../icons/Cross";
+import {Cross} from "../../icons";
 import { withTheme } from "../../Theme/withTheme";
 
 export const StyledWrapper = styled.div`
@@ -70,7 +70,7 @@ export const StyledIcon = styled.div`
   width: 15px;
 `;
 
-export const StyledCross = styled(CrossIcon)`
+export const StyledCross = styled(Cross)`
   box-sizing: border-box;
   position: absolute;
   right: ${(pr) => sidePaddings[pr.innerSize]}px;
