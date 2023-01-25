@@ -35,6 +35,7 @@ const StyledBox = styled.div`
       `;
           return ` ${dtt};`;
         })};
+
 `;
 
 export default withTheme(StyledBox);

@@ -56,6 +56,10 @@ export const KGTheme = {
      light: '#46018f',
      dark: '#46018f',
    },
+   glass:{
+    light: "#0067bb36",
+    dark: "#0067bb36",
+   },
    text: {
      dark: '#fff',
      light: '#000',

@@ -13,7 +13,7 @@ export function Box(props) {
     bg,
     css,
     responsive,
-    childrens,
+    children,
     mediaQueryType,
     shadow,
     ...rest
@@ -34,7 +34,7 @@ export function Box(props) {
      mediaQueryType={mediaQueryType}
      {...rest}
     >
-    {childrens}
+    {children}
     </StyledBox>
   )
 }

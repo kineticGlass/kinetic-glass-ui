@@ -1,5 +1,5 @@
 {
-  "name": "@kineticGlass/kinetic-glass-ui",
+  "name": "@kineticglass/kinetic-glass-ui",
   "version": "0.0.1",
   "description": "React Component Library with responsive and themeable components",
   "main": "dist/index.js",

@@ -22,7 +22,7 @@ export const colors = () =>{
   return (
   <>
   <ButtonRow>
-    <Button color="primary">Large</Button>
+    <Button color="glass">Large abd</Button>
     <Button color="secondary">secondary</Button>
     <Button color="success">success</Button>
     <Button color="danger">danger</Button>
