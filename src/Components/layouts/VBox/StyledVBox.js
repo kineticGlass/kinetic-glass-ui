@@ -4,7 +4,12 @@ import styled,{css} from "styled-components";
 import { withTheme } from '../../Theme/withTheme';
 
 const StyledVBoxChild = styled.div`
+
+  ${(props)=> 
+   props.inner ? props.inner.border? css`
+   border-${props.inner.border}: ${props.inner.borderWidth} ${props.inner.borderStyle} ${props.inner.borderColor}; `: "" :""};
   
+  ${(props)=> props.inner? props.inner.css : ""};
 `;
 
 
@@ -61,7 +66,7 @@ const  VerticalBox=(props)=> {
       mediaQueryType,
       css,
       childrens,
-      innerBorder,
+      inner,
       ...rest
     }=props;
     return (
@@ -81,7 +86,7 @@ const  VerticalBox=(props)=> {
         {console.log(props)}
          {React.Children.map(childrens, (child,index) =>{
             return(
-            <StyledVBoxChild innerBorder={innerBorder} key={index}>
+            <StyledVBoxChild inner={inner} key={index}>
                 
                 {child}
             </StyledVBoxChild>)

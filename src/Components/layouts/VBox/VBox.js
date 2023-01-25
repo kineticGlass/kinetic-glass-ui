@@ -14,6 +14,7 @@ export function VBox(props) {
     mediaQueryType,
     css,
     children,
+    inner,
     ...rest
   }=props;
   return (
@@ -27,6 +28,7 @@ export function VBox(props) {
       responsive={responsive}
       breakpoints={breakpoints}
       mediaQueryType={mediaQueryType}
+      inner={inner}
       css={css}
       childrens={children}
       {...rest}

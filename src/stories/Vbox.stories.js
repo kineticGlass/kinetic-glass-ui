@@ -26,6 +26,18 @@ export const SimplVbox = () => {
           "600px",
           "700px"
       ]}
+      inner={
+        {border:"top",
+         borderSize:"3px",
+         borderColor:"red",
+         borderStyle:"solid",
+         css:{
+            borderBottom:"3px solid yellow",
+         }
+        
+        }
+
+      }
     >
         
       <Box
