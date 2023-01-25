@@ -83,7 +83,6 @@ const  HorizontalBox=(props)=> {
         css={css}
         {...rest}
       >
-        {console.log(props)}
          {React.Children.map(childrens, (child,index) =>{
             return(
             <StyledHBoxChild inner={inner} key={index}>
