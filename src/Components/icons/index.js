@@ -1,5 +1,0 @@
-export * from './ArrowDown'
-export * from './Cross'
-export * from './Download'
-export * from './Search'
-export * from './User'
