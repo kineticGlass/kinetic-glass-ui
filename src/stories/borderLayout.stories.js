@@ -66,11 +66,6 @@ export const SimplBorderLayout = () => {
          </Box>
         
       </Box>
-
-
-
-
-
       <Box
         bg="red"
         textAlign="center"
