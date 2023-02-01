@@ -1,8 +1,6 @@
 import React from "react";
 import StyledButton from "./StyledButton";
 import { StyledIcon } from "./StyledButton";
-import PropTypes from "prop-types";
-import { COLORS, SIZES } from "../../../utils/utils";
 import "./buttonStyle.css";
 import { Spinner } from "../../spinner/spinner";
 export const Button = (props) => {
@@ -101,14 +99,4 @@ export const Button = (props) => {
   );
 };
 
-Button.propTypes = {
-  color: PropTypes.oneOf(COLORS),
-  leftIcon: PropTypes.elementType,
-  rightIcon: PropTypes.elementType,
-  size: PropTypes.oneOf(SIZES),
-  children: PropTypes.string,
-  disabled: PropTypes.bool,
-  ripple: PropTypes.bool,
-  loading: PropTypes.bool,
-  className: PropTypes.string,
-};
+
